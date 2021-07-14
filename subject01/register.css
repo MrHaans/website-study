@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+@font-face {
+    font-family: RegisterFont;
+    src: url(font/BakariRegular-4BdJK.otf);
+}
+
+body {
+    background-image: url(img/hero-register.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+.container {
+    background-color: rgb(110, 63, 20);
+    margin: 5rem 40rem;
+    height: 50rem;
+    width: 50rem;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.5rem;
+    border-top-left-radius: 15rem;
+    border-bottom-right-radius: 15rem;
+    box-shadow: 3rem 3rem 5rem black;
+}
+
+h2 {
+    font-family: RegisterFont;
+    font-size: 3.5rem;
+    color: white;
+    text-shadow: 0.5rem 0.5rem 0.4rem black;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    letter-spacing: 0.4rem;
+}
+
+label,
+input,
+select,
+option,
+button {
+    font-size: 1.8rem;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 12rem;
+    margin-right: 5rem;
+    margin-top: 0.8rem;
+}
+
+label,
+input,
+button {
+    color: white;
+}
+
+select {
+    margin-left: -1rem;
+    font-style: oblique;
+    font-size: 1.3rem;
+}
+
+option {
+    font-size: 1.3rem; 
+}
+
+input {
+    border-style: solid;
+    border-color: black;
+    border-width: 0.2rem;
+}
+
+button {
+    margin-top: 3rem;
+    margin-left: 15rem;
+    font-size: 2rem;
+    padding: 1.5rem 5rem;
+    font-family: AxieInfinityFont;
+    color: rgb(250, 151, 39);
+    text-shadow: 0.3rem 0.3rem 0.4rem black;
+    background-color: rgb(110, 63, 20);
+    border-style: dashed;
+    border-color: rgb(250, 151, 39);
+    border-radius: 5rem;
+}
+
+button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(62, 60, 209);
+}
+

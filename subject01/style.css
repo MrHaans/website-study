@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.clear {
+    clear: both;
+}
+
+@font-face {
+    font-family: AxieInfinityFont;
+    src: url(font/NashiMurah-d9gYK.otf);
+}
+
+.navbar-section {
+    background-color: rgb(110, 63, 20);
+}
+
+h1 {
+    color: rgb(250, 151, 39);
+    font-family: AxieInfinityFont;
+    text-shadow: 0.5rem 0.5rem 0.4rem black;
+    letter-spacing: 1rem;
+    font-size: 4rem;
+    margin: 1rem 2rem;
+}
+
+.hero-section h2 {
+    font-size: 2.5rem;
+    color: white;
+    padding: 10rem 10rem 0rem 10rem;
+    letter-spacing: 0.2rem;
+    word-spacing: 1.5rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+    color: white;
+    margin: 2rem 11rem;
+    font-style: oblique;
+}
+
+.hero-section button {
+    font-size: 2rem;
+    margin: 1rem 16rem;
+    padding: 1.5rem 1.5rem;
+    font-family: AxieInfinityFont;
+    color: rgb(250, 151, 39);
+    text-shadow: 0.3rem 0.3rem 0.4rem black;
+    background-color: rgb(110, 63, 20);
+    border-style: dashed;
+    border-color: rgb(250, 151, 39);
+    border-radius: 5rem;
+}
+
+.button {
+    color: rgb(250, 151, 39);
+}
+
+.button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(62, 60, 209);
+}
+
+.hero-section button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(62, 60, 209);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav h1 {
+    float: left;
+}
+
+nav ul {
+    float: right;
+    margin: 2rem 2rem;
+}
+
+li {
+    display: inline;
+    font-size: 2rem;
+    padding: 0 3rem;
+}
+
+li:nth-child(4){
+    background-color: rgb(62, 60, 209);
+    margin-left: 1rem;
+    padding: 1rem 1rem;
+    border-style: solid;
+    color: rgb(62, 60, 209);
+    border-radius: 20rem;
+}
+
+li:nth-child(4):hover{
+    background-color: rgb(110, 63, 20);
+    border-style: dashed;
+    border-color: rgb(250, 151, 39);
+    border-width: 0.3rem;
+}
+
+li:nth-child(5){
+    background-color: rgb(62, 60, 209);
+    margin-left: 1rem;
+    padding: 1rem 1rem;
+    border-style: solid;
+    color: rgb(62, 60, 209);
+    border-radius: 20rem;
+}
+
+li:nth-child(5):hover{
+    background-color: rgb(110, 63, 20);
+    border-style: dashed;
+    border-color: rgb(250, 151, 39);
+    border-width: 0.3rem;
+}
+
+.hero-section {
+    background-image: url(img/hero-image.png);
+    background-size: cover;
+    background-position: center;
+    height: 63rem;
+}
+
+.form-section {
+    text-align: center;
+    background-color: rgb(110, 63, 20);
+    padding: 2rem 2rem;
+}
+
+.form-section h2 {
+    font-size: 3rem;
+    padding: 2rem 5rem;
+    text-decoration-line: underline;
+    color: white;
+}
+
+label,
+input,
+textarea{
+    display: block;
+    margin: 1rem 50rem;
+    font-size: 2rem;
+    color: white;
+    width: 20%;
+}
+
+textarea {
+    height: 20rem;
+}
+
+.form-section button {
+    font-size: 2rem;
+    margin: 3rem 52rem;
+    padding: 1.5rem 1.5rem;
+    font-family: AxieInfinityFont;
+    color: rgb(250, 151, 39);
+    text-shadow: 0.3rem 0.3rem 0.4rem black;
+    background-color: rgb(110, 63, 20);
+    border-style: dashed;
+    border-color: rgb(250, 151, 39);
+    border-radius: 5rem;
+    width: 15%;
+}
+
+.form-section button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(62, 60, 209);
+}
+
+footer {
+    padding: 1rem 1rem;
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    font-style: oblique;
+    text-align: center;
+
+}
